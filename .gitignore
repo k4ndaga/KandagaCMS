@@ -23,12 +23,7 @@ public/packs/
 node_modules/
 
 bin/**
-config/application.yml
-config/aws.yml
-config/database.yml
-config/secrets.yml
-config/sidekiq.yml
-config/webpacker.yml
+config/*.yml
 .env/public/packs
 /public/packs-test
 /node_modules
