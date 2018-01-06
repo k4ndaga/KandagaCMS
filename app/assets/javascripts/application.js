@@ -1,16 +1,22 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or any plugin's vendor/assets/javascripts directory can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// compiled file.
-//
-// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
-// about supported directives.
-//
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require datatables.net/jquery.dataTables.min
+//= require datatables.net/dataTables.bootstrap.min
+//= require datatables.net/dataTables.buttons.min
+//= require datatables.net/buttons.bootstrap.min
+//= require datatables.net/buttons.flash.min
+//= require datatables.net/buttons.html5.min
+//= require datatables.net/buttons.print.min
+//= require datatables.net/dataTables.fixedHeader.min
+//= require datatables.net/dataTables.keyTable.min
+//= require datatables.net/dataTables.responsive.min
+//= require datatables.net/responsive.bootstrap
+//= require datatables.net/dataTables.scroller.min
+//= require datatables.net/range_dates
+//= require datatables.net/range_numbers
+//= require datatables.net/TableTools.ShowSelectedOnly
+//= require datatables.net/accent-neutralise
+//= require datatables.net/diacritics-neutralise
+//= require datatables.net/html
+//= require datatables.net/phoneNumber
