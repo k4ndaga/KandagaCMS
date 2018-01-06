@@ -8,6 +8,9 @@
   "license": "MIT",
   "private": true,
   "keywords": [
+    "kandaga",
+    "cms",
+    "platform",
     "rails",
     "ruby",
     "gulp",
