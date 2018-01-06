@@ -16,7 +16,6 @@
 !/log/.keep
 /tmp
 
-bin/
 public/assets/
 public/packs/
 /.idea/**
