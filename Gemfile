@@ -55,6 +55,11 @@ gem 'cells-slim'
 
 gem 'activerecord'
 gem 'dry-validation'
+gem 'roar'
+gem 'reform'
+gem 'reform-rails'
+gem 'multi_json'
+gem 'nokogiri'
 ### ----- END ----- ###
 
 group :workaround do
