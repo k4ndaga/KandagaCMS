@@ -47,9 +47,14 @@ gem 'webpacker', '~> 3.0'
 
 gem 'rubocop'
 
-gem "trailblazer"
-gem "trailblazer-rails" # if you are in rails.
-gem "trailblazer-cells"
+gem 'trailblazer', '>= 2.0.3'
+gem 'trailblazer-rails' # if you are in rails.
+gem 'trailblazer-cells'
+gem 'cells-rails'
+gem 'cells-slim'
+
+gem 'activerecord'
+gem 'dry-validation'
 ### ----- END ----- ###
 
 group :workaround do
@@ -78,6 +83,8 @@ group :development, :test do
   gem 'pry-remote'
   gem 'annotate'
   gem 'faker'
+  gem 'rspec'
+  gem 'capybara'
 end
 
 group :production, :staging do
