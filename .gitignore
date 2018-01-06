@@ -22,6 +22,7 @@ public/packs/
 /nbproject/private/
 node_modules/
 
+bin/**
 config/application.yml
 config/aws.yml
 config/database.yml
