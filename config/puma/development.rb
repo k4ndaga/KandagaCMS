@@ -1,7 +1,7 @@
 # config/puma/development.rb
 require "active_record"
 
-root = "/home/deploy/KandagaCMS.dev/current"
+root = "/home/zeroc0d3/ZEROC0D3LAB/Kandaga_Platform/KandagaCMS-Rails4"
 
 # Default to staging
 rails_env     = ENV['RAILS_ENV'] || "development"
