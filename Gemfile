@@ -60,6 +60,9 @@ gem 'reform'
 gem 'reform-rails'
 gem 'multi_json'
 gem 'nokogiri'
+
+gem 'dalli'
+gem 'identity_cache'
 ### ----- END ----- ###
 
 group :workaround do

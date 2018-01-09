@@ -48,6 +48,8 @@ GEM
     annotate (2.7.2)
       activerecord (>= 3.2, < 6.0)
       rake (>= 10.4, < 13.0)
+    ar_transaction_changes (1.1.2)
+      activerecord (>= 4.2.4, < 6.0)
     arel (6.0.4)
     ast (2.3.0)
     bcrypt (3.1.11)
@@ -131,6 +133,7 @@ GEM
     concurrent-ruby (1.0.5-java)
     connection_pool (2.2.1)
     crass (1.0.3)
+    dalli (2.7.6)
     debug_inspector (0.0.3)
     declarative (0.0.10)
     declarative-builder (0.1.0)
@@ -214,6 +217,9 @@ GEM
     hitimes (1.2.6-x86-mingw32)
     i18n (0.9.1)
       concurrent-ruby (~> 1.0)
+    identity_cache (0.5.1)
+      activerecord (>= 4.2.0)
+      ar_transaction_changes (~> 1.0)
     inflecto (0.0.2)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -514,6 +520,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   compass
   compass-rails
+  dalli
   derailed_benchmarks
   devise
   dry-validation
@@ -521,6 +528,7 @@ DEPENDENCIES
   eye (= 0.7)
   faker
   figaro
+  identity_cache
   jbuilder (~> 2.0)
   jquery-rails
   kaminari
