@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/sickill/rainbow.git
-  revision: 45128cf9f64d7eaea82b464efe5ff7cd24ad50c8
+  remote: https://github.com/sickill/rainbow.git
+  revision: 397ab84c299ec75c9eda563acbf68cf3f4d17f35
   specs:
-    rainbow (3.0.0)
+    rainbow (3.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -400,7 +400,7 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
-    tzinfo (1.2.4)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2017.3)
       tzinfo (>= 1.0.0)
